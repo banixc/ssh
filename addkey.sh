@@ -1,5 +1,6 @@
 #!/bin/sh
-mkdir -p /root/.ssh
-chmod 600 /root/.ssh
+cd ~
+mkdir -p ~/.ssh
+chmod 600 ~/.ssh
 echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmPIl6/M8oHOiW8Rzw8QqrOXwvGAoTSjWnW7ay9W7tscDWpwu4jolgvAnZlEfvzrgtVdrdaz8YBM0YonI5r1pIZMWpTB4XRBv9Jx2gSL2gv87kqtFPvcDYp/HNBl5FwIrdlk4Bp99GE48BCf6qJj90EIxT/YGwEoxdKhRGALHWhavEZ8HjmnGIgDqanVP3W6wkPuhOABRphNCpYLVxmhOY0ui7uSfXHtfLcLGOyipN1n/ylakWur3XGVpUSxuE4uzuhs+Z5dLqhC0DOKd0IbVKovyw/BV25wBvBQci23enFDmqShnGcYHlPqe3wcUjzLyzBdHHeySofd7B7mBMcbnB banixc@qq.com > /root/.ssh/authorized_keys
-chmod 600 /root/.ssh/authorized_keys
+chmod 644 ~/.ssh/authorized_keys
